@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WINCORE</Machine>
+    <WindowsUser>Mikael</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|Win32</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>21de8339-acf2-4f95-949a-d7ee051ed113</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Mikael\Documents\Visual Studio 2013\Projects\GameEngine\GameEngine\GameEngine.Windows\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>122A678B670C7906DCB051134D7F9D8A1AB4D2511D78131631B89DDE099C1038</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>21de8339-acf2-4f95-949a-d7ee051ed113_1.0.0.0_x86__psx16gh4vh3f2</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>21de8339-acf2-4f95-949a-d7ee051ed113_psx16gh4vh3f2!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>21de8339-acf2-4f95-949a-d7ee051ed113</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Mikael</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Mikael\Documents\Visual Studio 2013\Projects\GameEngine\Debug\GameEngine.Windows\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-04-18T13:42:34.653</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Mikael\Documents\Visual Studio 2013\Projects\GameEngine\Debug\GameEngine.Windows\GameEngine.Windows.exe">
+      <PackagePath>GameEngine.Windows.exe</PackagePath>
+      <Modified>2015-04-18T13:42:34.020</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mikael\Documents\Visual Studio 2013\Projects\GameEngine\Debug\GameEngine.Windows\GameEngine.winmd">
+      <PackagePath>GameEngine.winmd</PackagePath>
+      <Modified>2015-04-08T09:00:33.334</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mikael\Documents\Visual Studio 2013\Projects\GameEngine\GameEngine\GameEngine.Windows\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-04-07T16:20:09.117</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mikael\Documents\Visual Studio 2013\Projects\GameEngine\GameEngine\GameEngine.Windows\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-04-07T16:20:09.132</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mikael\Documents\Visual Studio 2013\Projects\GameEngine\GameEngine\GameEngine.Windows\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-04-07T16:20:09.132</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mikael\Documents\Visual Studio 2013\Projects\GameEngine\GameEngine\GameEngine.Windows\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-04-07T16:20:09.132</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mikael\Source\Repos\angle\winrt\8.1\windows\src\Debug_Win32\libEGL.dll">
+      <PackagePath>libEGL.dll</PackagePath>
+      <Modified>2015-04-07T16:43:02.649</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mikael\Source\Repos\angle\winrt\8.1\windows\src\Debug_Win32\libGLESv2.dll">
+      <PackagePath>libGLESv2.dll</PackagePath>
+      <Modified>2015-04-07T16:42:54.947</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mikael\Documents\Visual Studio 2013\Projects\GameEngine\Debug\GameEngine.Windows\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-04-08T09:00:33.396</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mikael\Documents\Visual Studio 2013\Projects\GameEngine\Debug\GameEngine.Windows\OpenGLESPage.xbf">
+      <PackagePath>OpenGLESPage.xbf</PackagePath>
+      <Modified>2015-04-08T09:00:33.396</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mikael\Documents\Visual Studio 2013\Projects\GameEngine\Debug\GameEngine.Windows\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-04-18T13:42:34.481</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

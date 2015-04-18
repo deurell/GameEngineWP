@@ -1,0 +1,21 @@
+﻿Build started 4/8/2015 11:31:29 AM.
+     1>Project "c:\Users\Mikael\documents\visual studio 2013\Projects\GameEngine\GameEngine\GameEngine.WindowsPhone\GameEngine.WindowsPhone.vcxproj" on node 3 (Build target(s)).
+     1>CreateWinMD:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\mikael\documents\visual studio 2013\Projects\GameEngine\Debug\GameEngine.WindowsPhone\GameEngine.WindowsPhone.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Windows Phone Kits\8.1\\lib\x86" C:\Users\Mikael\Source\Repos\angle\winrt\8.1\windowsphone\src\Debug_Win32\lib\libGLESv2.lib C:\Users\Mikael\Source\Repos\angle\winrt\8.1\windowsphone\src\Debug_Win32\lib\libEGL.lib WindowsPhoneCore.lib RuntimeObject.lib PhoneAppModelHost.lib /NODEFAULTLIB:kernel32.lib /NODEFAULTLIB:ole32.lib /MANIFEST:NO /DEBUG /PDB:"c:\users\mikael\documents\visual studio 2013\Projects\GameEngine\Debug\GameEngine.WindowsPhone\GameEngine.WindowsPhone.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /APPCONTAINER /WINMD:ONLY /WINMDFILE:"c:\users\mikael\documents\visual studio 2013\Projects\GameEngine\Debug\GameEngine.WindowsPhone\GameEngine.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Debug\Camera.obj
+         Debug\GameScene.obj
+         Debug\RenderingEngine.obj
+         Debug\SceneRequest.obj
+         Debug\SplashScene.obj
+         Debug\Square.obj
+         Debug\OpenGLES.obj
+         Debug\pch.obj
+         Debug\SimpleRenderer.obj
+         Debug\App.xaml.obj
+         Debug\OpenGLESPage.xaml.obj
+         Debug\XamlTypeInfo.Impl.g.obj
+     1>LINK : fatal error LNK1181: cannot open input file 'C:\Users\Mikael\Source\Repos\angle\winrt\8.1\windowsphone\src\Debug_Win32\lib\libGLESv2.lib'
+     1>Done Building Project "c:\Users\Mikael\documents\visual studio 2013\Projects\GameEngine\GameEngine\GameEngine.WindowsPhone\GameEngine.WindowsPhone.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.70

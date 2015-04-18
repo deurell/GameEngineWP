@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{bddf92cc-16a1-4060-aa8e-6044152b70fe}</ItemsProjectGuid>
+    <ItemsRootNamespace>GameEngine</ItemsRootNamespace>
+    <ItemsProjectName>GameEngine.Shared</ItemsProjectName>
+    <SharedGUID>47ee99c5-0ae4-4f98-b7cb-ad9b9c6374a5</SharedGUID>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Engine\Camera.cpp">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Engine\GameScene.cpp">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Engine\RenderingEngine.cpp">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Engine\SceneRequest.cpp">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Engine\SplashScene.cpp">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Engine\Square.cpp">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)OpenGLES.cpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Engine\Animation.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Engine\Camera.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Engine\GameScene.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Engine\IRenderingEngine.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Engine\Matrix.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Engine\Quaternion.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Engine\SceneRequest.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Engine\SplashScene.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Engine\Square.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Engine\Vector.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)OpenGLES.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)pch.h" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)pch.cpp">
+      <PrecompiledHeader>Create</PrecompiledHeader>
+    </ClCompile>
+    <ClInclude Include="$(MSBuildThisFileDirectory)SimpleRenderer.h" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)SimpleRenderer.cpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)MathHelper.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)App.xaml.h">
+      <DependentUpon>$(MSBuildThisFileDirectory)App.xaml</DependentUpon>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)App.xaml.cpp">
+      <DependentUpon>$(MSBuildThisFileDirectory)App.xaml</DependentUpon>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="$(MSBuildThisFileDirectory)App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Engine\Simple.frag" />
+    <None Include="$(MSBuildThisFileDirectory)Engine\Simple.vert" />
+  </ItemGroup>
+</Project>
