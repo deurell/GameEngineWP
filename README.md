@@ -1,2 +1,2 @@
 # GameEngineWP
-angle port of iOS OpenGL game engine demo
+Angle based port of iOS OpenGL game engine demo
