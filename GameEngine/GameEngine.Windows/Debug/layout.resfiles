@@ -1,8 +1,8 @@
+libEGL.dll
+libGLESv2.dll
 App.xbf
 OpenGLESPage.xbf
 Assets\Logo.png
 Assets\SmallLogo.png
 Assets\SplashScreen.png
 Assets\StoreLogo.png
-libEGL.dll
-libGLESv2.dll

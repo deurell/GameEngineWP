@@ -1,1 +1,1 @@
-C:\Users\Mikael\Documents\Visual Studio 2013\Projects\GameEngine\GameEngine\GameEngine.Windows\GameEngine.Windows.vcxproj;x86
+C:\sourcecode\GameEngineWP\GameEngine\GameEngine.Windows\GameEngine.Windows.vcxproj;x86
